@@ -1,1 +1,2 @@
+print("Voice Assistant Starting...")
 
