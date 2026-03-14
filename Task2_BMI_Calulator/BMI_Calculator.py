@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
-import matplotlib.pyplot as plt
-from datetime import datetime
+import matplotlib.pyplot as plt 
+from datetime import datetime   
 file_name = "bmi_history.txt"
 def calculate_bmi():
     try:
@@ -50,7 +50,7 @@ def show_progress():
     except:
         messagebox.showinfo("Info", "No BMI history found")
 def show_gauge(bmi):
-    import matplotlib.pyplot as plt
+    import matplotlib.pyplot as plt 
     categories = ["Underweight", "Normal", "Overweight", "Obese"]
     values = [18.5, 24.9, 29.9, 35]
     plt.figure()
